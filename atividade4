@@ -1,0 +1,21 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Contador</title>
+</head>
+<body>
+
+    <p id="resultado"></p>
+
+    <button onclick="
+        let numeros='';
+        for(let i=1;i<=10;i++){
+            numeros += i + '<br>';
+        }
+        document.getElementById('resultado').innerHTML = numeros;
+    ">
+        Contar
+    </button>
+
+</body>
+</html>
