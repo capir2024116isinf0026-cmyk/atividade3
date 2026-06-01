@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alteração de texto</title>
+</head>
+<body>
+
+    <p id="texto">o texto normal</p>
+
+    <button onclick="document.getElementById('texto').innerText='Texto alterado!'">
+        Alterar texto
+    </button>
+
+</body>
+</html>
